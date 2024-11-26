@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 20px auto; 
+    padding: 20px;
+}
+
+.two {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sla {
+    width: 350px;
+}
+
+.ladoa, .ladob {
+    flex: 1;
+    padding: 20px;
+}
+
+.ladoa {
+    text-align: left;
+}
+
+.ladob {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.meimg {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    padding: 10px 20px;
+}
+
+.logo img {
+    border-radius: 100px;
+}
+
+.menu a {
+    margin-left: 15px;
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.formbox {
+    background: rgba(225, 225, 225, 0.6);
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.btnenviar {
+    width: 100%;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, p {
+    margin: 10px 0;
+}
+
+button {
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.boxes{
+    padding: 15px;
+    border: 1px solid black;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #fcfbff;
+    box-shadow: 0 1px 0 #ececec;
+    max-width: 1120px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-left: 20px;
+}
